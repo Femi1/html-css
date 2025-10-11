@@ -1,0 +1,1320 @@
+
+[  
+	 
+	{ 
+		"title":"Going Beyond",
+		"url":"/advanced/beyond/",
+		"description":"Want to know more about front-end coding?",
+		"terms":  [
+			"Going Beyond",
+			"general",
+			"more html",
+			"more css",
+			"animation",
+			"javascript",
+			
+			"external resources",
+			"learn more",
+			"lessons",
+			"links"
+			
+		] ,
+		"links":  [
+			"<a href='/advanced/beyond/#general'>General</a>",
+			"<a href='/advanced/beyond/#more-html'>More HTML</a>",
+			"<a href='/advanced/beyond/#more-css'>More CSS</a>",
+			"<a href='/advanced/beyond/#animation'>Animation</a>",
+			"<a href='/advanced/beyond/#javascript'>Javascript</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Site Icons (Favicons)",
+		"url":"/advanced/favicons/",
+		"description":"An icon for the browser tab and elsewhere",
+		"terms":  [
+			"Site Icons (Favicons)",
+			"creating a favicon",
+			"using a favicon on a site",
+			
+			"tab bar",
+			"image png"
+			
+		] ,
+		"links":  [
+			"<a href='/advanced/favicons/#creating-a-favicon'>Creating a Favicon</a>",
+			"<a href='/advanced/favicons/#using-a-favicon-on-a-site'>Using a Favicon on a Site</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Git / Github",
+		"url":"/advanced/github/",
+		"description":"Version control to keep track of changes",
+		"terms":  [
+			"Git / Github",
+			"repositories",
+			"commits",
+			"workflow",
+			"video lesson",
+			"resource links",
+			
+			"version control",
+			"git github",
+			"hosting",
+			"deploy",
+			"files"
+			
+		] ,
+		"links":  [
+			"<a href='/advanced/github/#repositories'>Repositories</a>",
+			"<a href='/advanced/github/#commits'>Commits</a>",
+			"<a href='/advanced/github/#workflow'>Workflow</a>",
+			"<a href='/advanced/github/#video-lesson'>Video Lesson</a>",
+			"<a href='/advanced/github/#resource-links'>Resource Links</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Styling a Responsive Nav",
+		"url":"/advanced/responsive-nav/",
+		"description":"A simple example of responsive design for site navigation",
+		"terms":  [
+			"Styling a Responsive Nav",
+			"the html",
+			"mobile-first styles",
+			"making it responsive",
+			
+			"practice practical",
+			"navigation menu"
+			
+		] ,
+		"links":  [
+			"<a href='/advanced/responsive-nav/#the-html'>The HTML</a>",
+			"<a href='/advanced/responsive-nav/#mobile-first-styles'>Mobile-First Styles</a>",
+			"<a href='/advanced/responsive-nav/#making-it-responsive'>Making it Responsive</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"CSS Transitions &amp; Animation",
+		"url":"/css/animation/",
+		"description":"For adding motion to web pages",
+		"terms":  [
+			"CSS Transitions &amp; Animation",
+			"transitions",
+			"keyframe animation",
+			"video lesson",
+			"resource links",
+			"tool links",
+			
+			"motion",
+			"between",
+			"time duration",
+			"easing ease"
+			
+		] ,
+		"links":  [
+			"<a href='/css/animation/#transitions'>Transitions</a>",
+			"<a href='/css/animation/#keyframe-animation'>Keyframe Animation</a>",
+			"<a href='/css/animation/#video-lesson'>Video Lesson</a>",
+			"<a href='/css/animation/#resource-links'>Resource Links</a>",
+			"<a href='/css/animation/#tool-links'>Tool Links</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Background Colors &amp; Images",
+		"url":"/css/backgrounds/",
+		"description":"How to control the appearance of the area behind a page or element",
+		"terms":  [
+			"Background Colors &amp; Images",
+			"background color",
+			"background image",
+			"background repeat",
+			"background position",
+			"background attachment",
+			"background size",
+			"video lesson",
+			"practice exercise",
+			"resource links",
+			
+			"behind",
+			"pattern",
+			"keywords",
+			"scroll"
+			
+		] ,
+		"links":  [
+			"<a href='/css/backgrounds/#background-color'>Background Color</a>",
+			"<a href='/css/backgrounds/#background-image'>Background Image</a>",
+			"<a href='/css/backgrounds/#background-repeat'>Background Repeat</a>",
+			"<a href='/css/backgrounds/#background-position'>Background Position</a>",
+			"<a href='/css/backgrounds/#background-attachment'>Background Attachment</a>",
+			"<a href='/css/backgrounds/#background-size'>Background Size</a>",
+			"<a href='/css/backgrounds/#video-lesson'>Video Lesson</a>",
+			"<a href='/css/backgrounds/#practice-exercise'>Practice Exercise</a>",
+			"<a href='/css/backgrounds/#resource-links'>Resource Links</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"The Box Model",
+		"url":"/css/box-model/",
+		"description":"How block elements are sized and spaced in CSS",
+		"terms":  [
+			"The Box Model",
+			"width & height",
+			"padding",
+			"margin",
+			"border",
+			"box sizing",
+			"interactive demo",
+			"video lesson",
+			"practice exercise",
+			"resource links",
+			
+			"space spacing",
+			"line outline",
+			"inside outside",
+			"sizing behaviour",
+			"layout scale size"
+			
+		] ,
+		"links":  [
+			"<a href='/css/box-model/#width-and-height'>Width & Height</a>",
+			"<a href='/css/box-model/#padding'>Padding</a>",
+			"<a href='/css/box-model/#margin'>Margin</a>",
+			"<a href='/css/box-model/#border'>Border</a>",
+			"<a href='/css/box-model/#box-sizing'>Box Sizing</a>",
+			"<a href='/css/box-model/#interactive-demo'>Interactive Demo</a>",
+			"<a href='/css/box-model/#video-lesson'>Video Lesson</a>",
+			"<a href='/css/box-model/#practice-exercise'>Practice Exercise</a>",
+			"<a href='/css/box-model/#resource-links'>Resource Links</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"CSS Color Definitions",
+		"url":"/css/colors/",
+		"description":"Several common ways to specify a color in CSS",
+		"terms":  [
+			"CSS Color Definitions",
+			"hexadecimal",
+			"rgb & rgba",
+			"named colors",
+			"practice exercise",
+			"resource links",
+			"tool links",
+			
+			"colors",
+			"hashtag",
+			"transparency transparent",
+			"shorthand"
+			
+		] ,
+		"links":  [
+			"<a href='/css/colors/#hexadecimal'>Hexadecimal</a>",
+			"<a href='/css/colors/#rgb-and-rgba'>RGB & RGBA</a>",
+			"<a href='/css/colors/#named-colors'>Named Colors</a>",
+			"<a href='/css/colors/#practice-exercise'>Practice Exercise</a>",
+			"<a href='/css/colors/#resource-links'>Resource Links</a>",
+			"<a href='/css/colors/#tool-links'>Tool Links</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Introduction to CSS",
+		"url":"/css/css-intro/",
+		"description":"What is the purpose of CSS? How does it work to style HTML?",
+		"terms":  [
+			"Introduction to CSS",
+			"css files",
+			"syntax",
+			"the cascade",
+			"default styles",
+			"comments in css",
+			"practice exercise",
+			"resource links",
+			
+			"style visual appearance design",
+			"language",
+			"linking",
+			"order override specificity inheritance",
+			"notes"
+			
+		] ,
+		"links":  [
+			"<a href='/css/css-intro/#css-files'>CSS Files</a>",
+			"<a href='/css/css-intro/#syntax'>Syntax</a>",
+			"<a href='/css/css-intro/#the-cascade'>The Cascade</a>",
+			"<a href='/css/css-intro/#default-styles'>Default Styles</a>",
+			"<a href='/css/css-intro/#comments-in-css'>Comments in CSS</a>",
+			"<a href='/css/css-intro/#practice-exercise'>Practice Exercise</a>",
+			"<a href='/css/css-intro/#resource-links'>Resource Links</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"The Display Property",
+		"url":"/css/display/",
+		"description":"How to control the basic layout behavior of an element",
+		"terms":  [
+			"The Display Property",
+			"block",
+			"inline",
+			"inline-block",
+			"none",
+			"other display values",
+			"video lesson",
+			"practice exercise",
+			
+			"hide hidden invisible",
+			"stack",
+			"side by side line",
+			"behavior behave",
+			"layout"
+			
+		] ,
+		"links":  [
+			"<a href='/css/display/#block'>Block</a>",
+			"<a href='/css/display/#inline'>Inline</a>",
+			"<a href='/css/display/#inline-block'>Inline-Block</a>",
+			"<a href='/css/display/#none'>None</a>",
+			"<a href='/css/display/#other-display-values'>Other Display Values</a>",
+			"<a href='/css/display/#video-lesson'>Video Lesson</a>",
+			"<a href='/css/display/#practice-exercise'>Practice Exercise</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Special Effects",
+		"url":"/css/effects/",
+		"description":"How to apply unique styles such as shadows and rounded corners",
+		"terms":  [
+			"Special Effects",
+			"two kinds of shadows",
+			"box shadow",
+			"text shadow",
+			"rounded corners",
+			"video lesson",
+			"practice exercise",
+			"tool links",
+			
+			"border-radius",
+			"offset spread blur"
+			
+		] ,
+		"links":  [
+			"<a href='/css/effects/#two-kinds-of-shadows'>Two Kinds of Shadows</a>",
+			"<a href='/css/effects/#box-shadow'>Box Shadow</a>",
+			"<a href='/css/effects/#text-shadow'>Text Shadow</a>",
+			"<a href='/css/effects/#rounded-corners'>Rounded Corners</a>",
+			"<a href='/css/effects/#video-lesson'>Video Lesson</a>",
+			"<a href='/css/effects/#practice-exercise'>Practice Exercise</a>",
+			"<a href='/css/effects/#tool-links'>Tool Links</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Flexbox",
+		"url":"/css/flexbox/",
+		"description":"For laying out items across a single dimension",
+		"terms":  [
+			"Flexbox",
+			"activating flexbox",
+			"flex direction",
+			"justify content",
+			"align items",
+			"video lesson",
+			"practice exercise",
+			"resource links",
+			
+			"line inline one dimension",
+			"layout position",
+			"stack",
+			"reverse",
+			"space between around",
+			"vertical horizontal",
+			"display",
+			"margin"
+			
+		] ,
+		"links":  [
+			"<a href='/css/flexbox/#activating-flexbox'>Activating Flexbox</a>",
+			"<a href='/css/flexbox/#flex-direction'>Flex Direction</a>",
+			"<a href='/css/flexbox/#justify-content'>Justify Content</a>",
+			"<a href='/css/flexbox/#align-items'>Align Items</a>",
+			"<a href='/css/flexbox/#video-lesson'>Video Lesson</a>",
+			"<a href='/css/flexbox/#practice-exercise'>Practice Exercise</a>",
+			"<a href='/css/flexbox/#resource-links'>Resource Links</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Float &amp; Clear",
+		"url":"/css/float-clear/",
+		"description":"How to wrap text around an image or another element",
+		"terms":  [
+			"Float &amp; Clear",
+			"float",
+			"clear",
+			"video lesson",
+			"practice exercise",
+			
+			"wrap around",
+			"flow",
+			"left right sides"
+			
+		] ,
+		"links":  [
+			"<a href='/css/float-clear/#float'>Float</a>",
+			"<a href='/css/float-clear/#clear'>Clear</a>",
+			"<a href='/css/float-clear/#video-lesson'>Video Lesson</a>",
+			"<a href='/css/float-clear/#practice-exercise'>Practice Exercise</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Fluid Width",
+		"url":"/css/fluid-width/",
+		"description":"How to make elements stretch or squish depending to fit the space available",
+		"terms":  [
+			"Fluid Width",
+			"setting fixed widths",
+			"percentage widths",
+			"max-width & min-width",
+			"height properties",
+			"video lesson",
+			"practice exercise",
+			
+			"size behaviour",
+			"squish stretch",
+			"maximum minimum",
+			"scale responsive"
+			
+		] ,
+		"links":  [
+			"<a href='/css/fluid-width/#setting-fixed-widths'>Setting Fixed Widths</a>",
+			"<a href='/css/fluid-width/#percentage-widths'>Percentage Widths</a>",
+			"<a href='/css/fluid-width/#max-width-and-min-width'>Max-Width & Min-Width</a>",
+			"<a href='/css/fluid-width/#height-properties'>Height Properties</a>",
+			"<a href='/css/fluid-width/#video-lesson'>Video Lesson</a>",
+			"<a href='/css/fluid-width/#practice-exercise'>Practice Exercise</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Grid",
+		"url":"/css/grid/",
+		"description":"For laying out items in a two-dimensional grid",
+		"terms":  [
+			"Grid",
+			"terminology",
+			"activating grid",
+			"grid template",
+			"grid gap",
+			"justify items",
+			"align items",
+			"positioning grid children",
+			"video lesson",
+			"practice exercise",
+			"resource links",
+			
+			"two dimensional",
+			"layout",
+			"columns rows automatic",
+			"fr unit",
+			"cells lines",
+			"display",
+			"repeat"
+			
+		] ,
+		"links":  [
+			"<a href='/css/grid/#terminology'>Terminology</a>",
+			"<a href='/css/grid/#activating-grid'>Activating Grid</a>",
+			"<a href='/css/grid/#grid-template'>Grid Template</a>",
+			"<a href='/css/grid/#grid-gap'>Grid Gap</a>",
+			"<a href='/css/grid/#justify-items'>Justify Items</a>",
+			"<a href='/css/grid/#align-items'>Align Items</a>",
+			"<a href='/css/grid/#positioning-grid-children'>Positioning Grid Children</a>",
+			"<a href='/css/grid/#video-lesson'>Video Lesson</a>",
+			"<a href='/css/grid/#practice-exercise'>Practice Exercise</a>",
+			"<a href='/css/grid/#resource-links'>Resource Links</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Link States",
+		"url":"/css/link-states/",
+		"description":"Different states of link interaction and how to style them",
+		"terms":  [
+			"Link States",
+			"normal links",
+			"visited",
+			"hover",
+			"focus",
+			"active",
+			"order of selectors",
+			"full example",
+			"video lesson",
+			"practice exercise",
+			
+			"style",
+			"interaction click",
+			"mouse",
+			"tab accessibility",
+			"default"
+			
+		] ,
+		"links":  [
+			"<a href='/css/link-states/#normal-links'>Normal Links</a>",
+			"<a href='/css/link-states/#visited'>Visited</a>",
+			"<a href='/css/link-states/#hover'>Hover</a>",
+			"<a href='/css/link-states/#focus'>Focus</a>",
+			"<a href='/css/link-states/#active'>Active</a>",
+			"<a href='/css/link-states/#order-of-selectors'>Order of Selectors</a>",
+			"<a href='/css/link-states/#full-example'>Full Example</a>",
+			"<a href='/css/link-states/#video-lesson'>Video Lesson</a>",
+			"<a href='/css/link-states/#practice-exercise'>Practice Exercise</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Styling Lists",
+		"url":"/css/list-styles/",
+		"description":"How to control the bullets, numbers, and spacing associated with list items",
+		"terms":  [
+			"Styling Lists",
+			"list style type",
+			"nested lists",
+			"default padding",
+			"list style position",
+			"practice exercise",
+			"resource links",
+			
+			"ordered unordered ul ol",
+			"nesting",
+			"bullets numbers"
+			
+		] ,
+		"links":  [
+			"<a href='/css/list-styles/#list-style-type'>List Style Type</a>",
+			"<a href='/css/list-styles/#nested-lists'>Nested Lists</a>",
+			"<a href='/css/list-styles/#default-padding'>Default Padding</a>",
+			"<a href='/css/list-styles/#list-style-position'>List Style Position</a>",
+			"<a href='/css/list-styles/#practice-exercise'>Practice Exercise</a>",
+			"<a href='/css/list-styles/#resource-links'>Resource Links</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"The Position Property",
+		"url":"/css/position/",
+		"description":"For when you want full manual control of the placement of an element",
+		"terms":  [
+			"The Position Property",
+			"position basics",
+			"document flow",
+			"relative",
+			"absolute",
+			"fixed",
+			"video lesson",
+			"practice exercise",
+			
+			"scrolling",
+			"parent child",
+			"layout",
+			"left right bottom top directional",
+			"window viewport browser"
+			
+		] ,
+		"links":  [
+			"<a href='/css/position/#position-basics'>Position Basics</a>",
+			"<a href='/css/position/#document-flow'>Document Flow</a>",
+			"<a href='/css/position/#relative'>Relative</a>",
+			"<a href='/css/position/#absolute'>Absolute</a>",
+			"<a href='/css/position/#fixed'>Fixed</a>",
+			"<a href='/css/position/#video-lesson'>Video Lesson</a>",
+			"<a href='/css/position/#practice-exercise'>Practice Exercise</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"CSS-Generated Content",
+		"url":"/css/pseudo-elements/",
+		"description":"Insert visual content with CSS",
+		"terms":  [
+			"CSS-Generated Content",
+			"pseudo-elements",
+			"styling inserted content",
+			"absolute positioning",
+			
+			"before after"
+			
+		] ,
+		"links":  [
+			"<a href='/css/pseudo-elements/#pseudo-elements'>Pseudo-Elements</a>",
+			"<a href='/css/pseudo-elements/#styling-inserted-content'>Styling Inserted Content</a>",
+			"<a href='/css/pseudo-elements/#absolute-positioning'>Absolute Positioning</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Responsive Design",
+		"url":"/css/responsive/",
+		"description":"Using media queries to adapt a page to different screen sizes",
+		"terms":  [
+			"Responsive Design",
+			"mobile first",
+			"media queries",
+			"video lesson",
+			"practice exercise",
+			
+			"viewport window browser size device screen",
+			"desktop tablet",
+			"scale layout behavior",
+			"width height",
+			"styles conditional"
+			
+		] ,
+		"links":  [
+			"<a href='/css/responsive/#mobile-first'>Mobile First</a>",
+			"<a href='/css/responsive/#media-queries'>Media Queries</a>",
+			"<a href='/css/responsive/#video-lesson'>Video Lesson</a>",
+			"<a href='/css/responsive/#practice-exercise'>Practice Exercise</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"CSS Selectors",
+		"url":"/css/selectors/",
+		"description":"Different ways CSS can select HTML elements to style",
+		"terms":  [
+			"CSS Selectors",
+			"element selector",
+			"class selector",
+			"decendant combinator",
+			"selector list",
+			"attribute selector",
+			"advanced selectors",
+			"practice exercise",
+			
+			"parent direct child ancestor sibling container",
+			"multiple",
+			"style",
+			"syntax",
+			"period comma"
+			
+		] ,
+		"links":  [
+			"<a href='/css/selectors/#element-selector'>Element Selector</a>",
+			"<a href='/css/selectors/#class-selector'>Class Selector</a>",
+			"<a href='/css/selectors/#decendant-combinator'>Decendant Combinator</a>",
+			"<a href='/css/selectors/#selector-list'>Selector List</a>",
+			"<a href='/css/selectors/#attribute-selector'>Attribute Selector</a>",
+			"<a href='/css/selectors/#advanced-selectors'>Advanced Selectors</a>",
+			"<a href='/css/selectors/#practice-exercise'>Practice Exercise</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Common Size Units",
+		"url":"/css/size-units/",
+		"description":"Different ways to apply measurements in CSS",
+		"terms":  [
+			"Common Size Units",
+			"pixels",
+			"rems",
+			"percentages",
+			"viewport units",
+			"ems",
+			"practice exercise",
+			"resource links",
+			
+			"measurement scale size",
+			"font type",
+			"width height",
+			"browser window screen",
+			"relative",
+			"parent"
+			
+		] ,
+		"links":  [
+			"<a href='/css/size-units/#pixels'>Pixels</a>",
+			"<a href='/css/size-units/#rems'>Rems</a>",
+			"<a href='/css/size-units/#percentages'>Percentages</a>",
+			"<a href='/css/size-units/#viewport-units'>Viewport Units</a>",
+			"<a href='/css/size-units/#ems'>Ems</a>",
+			"<a href='/css/size-units/#practice-exercise'>Practice Exercise</a>",
+			"<a href='/css/size-units/#resource-links'>Resource Links</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Transform",
+		"url":"/css/transforms/",
+		"description":"For scaling, rotating, skewing, or moving an element",
+		"terms":  [
+			"Transform",
+			"basic usage",
+			"common transform functions",
+			
+			"scale",
+			"rotate turn spin",
+			"translate move shift",
+			"skew",
+			"layout",
+			"animate animation transition"
+			
+		] ,
+		"links":  [
+			"<a href='/css/transforms/#basic-usage'>Basic Usage</a>",
+			"<a href='/css/transforms/#common-transform-functions'>Common Transform Functions</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Advanced Typographic CSS",
+		"url":"/css/type-advanced/",
+		"description":"Techniques for creating cohesive and responsive typography",
+		"terms":  [
+			"Advanced Typographic CSS",
+			"modular scales",
+			"responsive type",
+			"video lesson",
+			"resource links",
+			"tool links",
+			
+			"typography",
+			"size sizing math calc calulation",
+			"variables"
+			
+		] ,
+		"links":  [
+			"<a href='/css/type-advanced/#modular-scales'>Modular Scales</a>",
+			"<a href='/css/type-advanced/#responsive-type'>Responsive Type</a>",
+			"<a href='/css/type-advanced/#video-lesson'>Video Lesson</a>",
+			"<a href='/css/type-advanced/#resource-links'>Resource Links</a>",
+			"<a href='/css/type-advanced/#tool-links'>Tool Links</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Typographic Properties",
+		"url":"/css/type-css/",
+		"description":"A wide variety of ways to customize and control the appearance of text",
+		"terms":  [
+			"Typographic Properties",
+			"font-family",
+			"font-size",
+			"font-weight",
+			"font-style",
+			"color",
+			"line-height",
+			"text-transform",
+			"text-decoration",
+			"letter-spacing",
+			"video lesson",
+			"practice exercise",
+			"resource links",
+			"tool links",
+			
+			"type typography",
+			"typeface",
+			"rems pixels",
+			"bold italics",
+			"leading",
+			"tracking kerning",
+			"underline overline line through strikethrough",
+			"uppercase lowercase caps capitols"
+			
+		] ,
+		"links":  [
+			"<a href='/css/type-css/#font-family'>Font-Family</a>",
+			"<a href='/css/type-css/#font-size'>Font-Size</a>",
+			"<a href='/css/type-css/#font-weight'>Font-Weight</a>",
+			"<a href='/css/type-css/#font-style'>Font-Style</a>",
+			"<a href='/css/type-css/#color'>Color</a>",
+			"<a href='/css/type-css/#line-height'>Line-Height</a>",
+			"<a href='/css/type-css/#text-transform'>Text-Transform</a>",
+			"<a href='/css/type-css/#text-decoration'>Text-Decoration</a>",
+			"<a href='/css/type-css/#letter-spacing'>Letter-Spacing</a>",
+			"<a href='/css/type-css/#video-lesson'>Video Lesson</a>",
+			"<a href='/css/type-css/#practice-exercise'>Practice Exercise</a>",
+			"<a href='/css/type-css/#resource-links'>Resource Links</a>",
+			"<a href='/css/type-css/#tool-links'>Tool Links</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Variables",
+		"url":"/css/variables/",
+		"description":"For creating reusable CSS values",
+		"terms":  [
+			"Variables",
+			"defining variables",
+			"redefining and overriding",
+			"using variables",
+			"video lesson",
+			"resource links",
+			
+			"custom properties",
+			"reuse reusable"
+			
+		] ,
+		"links":  [
+			"<a href='/css/variables/#defining-variables'>Defining Variables</a>",
+			"<a href='/css/variables/#redefining-and-overriding'>Redefining and Overriding</a>",
+			"<a href='/css/variables/#using-variables'>Using Variables</a>",
+			"<a href='/css/variables/#video-lesson'>Video Lesson</a>",
+			"<a href='/css/variables/#resource-links'>Resource Links</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Web Fonts",
+		"url":"/css/web-fonts/",
+		"description":"Custom typefaces for web pages",
+		"terms":  [
+			"Web Fonts",
+			"web font basics",
+			"web font services",
+			"weights & styles",
+			"practice exercise",
+			"resource links",
+			"tool links",
+			
+			"type typography typefaces",
+			"google fonts",
+			"webfonts",
+			"fake bold italic"
+			
+		] ,
+		"links":  [
+			"<a href='/css/web-fonts/#web-font-basics'>Web Font Basics</a>",
+			"<a href='/css/web-fonts/#web-font-services'>Web Font Services</a>",
+			"<a href='/css/web-fonts/#weights-and-styles'>Weights & Styles</a>",
+			"<a href='/css/web-fonts/#practice-exercise'>Practice Exercise</a>",
+			"<a href='/css/web-fonts/#resource-links'>Resource Links</a>",
+			"<a href='/css/web-fonts/#tool-links'>Tool Links</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Basic HTML Text Elements",
+		"url":"/html/basic-text/",
+		"description":"The most common elements for structuring text content",
+		"terms":  [
+			"Basic HTML Text Elements",
+			"headings",
+			"paragraph and small",
+			"strong and emphasis",
+			"lists",
+			"breaking elements",
+			"practice exercise",
+			
+			"h1 h2 h3 h4 h5 h6 hierarchy",
+			"important importance",
+			"ordered unordered ul ol li",
+			"horizontal rule hr"
+			
+		] ,
+		"links":  [
+			"<a href='/html/basic-text/#headings'>Headings</a>",
+			"<a href='/html/basic-text/#paragraph-and-small'>Paragraph and Small</a>",
+			"<a href='/html/basic-text/#strong-and-emphasis'>Strong and Emphasis</a>",
+			"<a href='/html/basic-text/#lists'>Lists</a>",
+			"<a href='/html/basic-text/#breaking-elements'>Breaking Elements</a>",
+			"<a href='/html/basic-text/#practice-exercise'>Practice Exercise</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Divs &amp; Spans",
+		"url":"/html/div-span/",
+		"description":"Meaningless elements",
+		"terms":  [
+			"Divs &amp; Spans",
+			"div versus span",
+			"practice exercise",
+			
+			"meaningless meaning",
+			"inline block",
+			"container"
+			
+		] ,
+		"links":  [
+			"<a href='/html/div-span/#div-versus-span'>Div versus Span</a>",
+			"<a href='/html/div-span/#practice-exercise'>Practice Exercise</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"File Structure",
+		"url":"/html/file-structure/",
+		"description":"How to structure the folders and files of a website project",
+		"terms":  [
+			"File Structure",
+			"project folder",
+			"home page",
+			"subfolders",
+			"parent folders",
+			"practice exercise",
+			
+			"directory root subdirectory",
+			"file path filepath",
+			"locally",
+			"relative absolute",
+			"index"
+			
+		] ,
+		"links":  [
+			"<a href='/html/file-structure/#project-folder'>Project Folder</a>",
+			"<a href='/html/file-structure/#home-page'>Home Page</a>",
+			"<a href='/html/file-structure/#subfolders'>Subfolders</a>",
+			"<a href='/html/file-structure/#parent-folders'>Parent Folders</a>",
+			"<a href='/html/file-structure/#practice-exercise'>Practice Exercise</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Forms",
+		"url":"/html/forms/",
+		"description":"How to accept input or information from users",
+		"terms":  [
+			"Forms",
+			"the form element",
+			"the input element",
+			"the textarea element",
+			"select &amp; option",
+			"the name attribute",
+			"the label element",
+			"submit buttons",
+			"additional attributes",
+			"video lesson",
+			"practice exercise",
+			"resources",
+			
+			"search radio text email url number password range file drop-down",
+			"action",
+			"type attribute",
+			"value",
+			"for name",
+			"data",
+			"required disabled placeholder"
+			
+		] ,
+		"links":  [
+			"<a href='/html/forms/#the-form-element'>The Form Element</a>",
+			"<a href='/html/forms/#the-input-element'>The Input Element</a>",
+			"<a href='/html/forms/#the-textarea-element'>The Textarea Element</a>",
+			"<a href='/html/forms/#select-andamp-option'>Select &amp; Option</a>",
+			"<a href='/html/forms/#the-name-attribute'>The Name Attribute</a>",
+			"<a href='/html/forms/#the-label-element'>The Label Element</a>",
+			"<a href='/html/forms/#submit-buttons'>Submit Buttons</a>",
+			"<a href='/html/forms/#additional-attributes'>Additional Attributes</a>",
+			"<a href='/html/forms/#video-lesson'>Video Lesson</a>",
+			"<a href='/html/forms/#practice-exercise'>Practice Exercise</a>",
+			"<a href='/html/forms/#resources'>Resources</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"HTML Introduction",
+		"url":"/html/html-intro/",
+		"description":"What is HTML? What are the rules of the language?",
+		"terms":  [
+			"HTML Introduction",
+			"a language for content",
+			"elements",
+			"semantics",
+			"attributes",
+			"html files",
+			"practice exercise",
+			
+			"markup",
+			"tags",
+			"nesting",
+			"self-closing",
+			"meaning",
+			"home page",
+			"index",
+			"syntax"
+			
+		] ,
+		"links":  [
+			"<a href='/html/html-intro/#a-language-for-content'>A Language for Content</a>",
+			"<a href='/html/html-intro/#elements'>Elements</a>",
+			"<a href='/html/html-intro/#semantics'>Semantics</a>",
+			"<a href='/html/html-intro/#attributes'>Attributes</a>",
+			"<a href='/html/html-intro/#html-files'>HTML Files</a>",
+			"<a href='/html/html-intro/#practice-exercise'>Practice Exercise</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Semantic Elements",
+		"url":"/html/html5-semantic/",
+		"description":"A set of elements aimed at adding meaning to the parts of a web page",
+		"terms":  [
+			"Semantic Elements",
+			"header",
+			"footer",
+			"main",
+			"article",
+			"section",
+			"aside",
+			"nav",
+			"figure & figcaption",
+			"video lesson",
+			"practice exercise",
+			
+			"meaning",
+			"introductory content",
+			"creator or creation",
+			"primary content",
+			"stand alone",
+			"thematically related",
+			"secondary related bonus",
+			"menu navigation",
+			"example image",
+			"caption"
+			
+		] ,
+		"links":  [
+			"<a href='/html/html5-semantic/#header'>Header</a>",
+			"<a href='/html/html5-semantic/#footer'>Footer</a>",
+			"<a href='/html/html5-semantic/#main'>Main</a>",
+			"<a href='/html/html5-semantic/#article'>Article</a>",
+			"<a href='/html/html5-semantic/#section'>Section</a>",
+			"<a href='/html/html5-semantic/#aside'>Aside</a>",
+			"<a href='/html/html5-semantic/#nav'>Nav</a>",
+			"<a href='/html/html5-semantic/#figure-and-figcaption'>Figure & Figcaption</a>",
+			"<a href='/html/html5-semantic/#video-lesson'>Video Lesson</a>",
+			"<a href='/html/html5-semantic/#practice-exercise'>Practice Exercise</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"IDs &amp; Classes",
+		"url":"/html/ids-classes/",
+		"description":"Attributes for giving names to elements",
+		"terms":  [
+			"IDs &amp; Classes",
+			"usage rules",
+			"ids",
+			"classes",
+			"multiple classes or ids",
+			"practice exercise",
+			
+			"name naming",
+			"selectors",
+			"attributes"
+			
+		] ,
+		"links":  [
+			"<a href='/html/ids-classes/#usage-rules'>Usage Rules</a>",
+			"<a href='/html/ids-classes/#ids'>IDs</a>",
+			"<a href='/html/ids-classes/#classes'>Classes</a>",
+			"<a href='/html/ids-classes/#multiple-classes-or-ids'>Multiple Classes or IDs</a>",
+			"<a href='/html/ids-classes/#practice-exercise'>Practice Exercise</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Images",
+		"url":"/html/images/",
+		"description":"Image formats, the HTML image element, and inline SVG",
+		"terms":  [
+			"Images",
+			"common image formats",
+			"the image element",
+			"inline svg",
+			"video lesson",
+			"practice exercise",
+			"resource links",
+			"tool links",
+			
+			"jpg jpeg png gif formats",
+			"bitmap raster vector",
+			"pixels",
+			"compressed",
+			"transparency",
+			"animation meme"
+			
+		] ,
+		"links":  [
+			"<a href='/html/images/#common-image-formats'>Common Image Formats</a>",
+			"<a href='/html/images/#the-image-element'>The Image Element</a>",
+			"<a href='/html/images/#inline-svg'>Inline SVG</a>",
+			"<a href='/html/images/#video-lesson'>Video Lesson</a>",
+			"<a href='/html/images/#practice-exercise'>Practice Exercise</a>",
+			"<a href='/html/images/#resource-links'>Resource Links</a>",
+			"<a href='/html/images/#tool-links'>Tool Links</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Interactive Elements",
+		"url":"/html/interactive/",
+		"description":"Elements with built-in interactive open-and-close behaviors",
+		"terms":  [
+			"Interactive Elements",
+			"details & summary",
+			"dialog",
+			"video lesson",
+			"resource links",
+			
+			"modal popup pop-up overlay",
+			"accordion toggle open"
+			
+		] ,
+		"links":  [
+			"<a href='/html/interactive/#details-and-summary'>Details & Summary</a>",
+			"<a href='/html/interactive/#dialog'>Dialog</a>",
+			"<a href='/html/interactive/#video-lesson'>Video Lesson</a>",
+			"<a href='/html/interactive/#resource-links'>Resource Links</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Links",
+		"url":"/html/links/",
+		"description":"The most fundamental type of interactivity in HTML",
+		"terms":  [
+			"Links",
+			"absolute links",
+			"relative links",
+			"anchor links",
+			"email links",
+			"optional attributes",
+			"video lesson",
+			"practice exercise",
+			"tool links",
+			
+			"interaction",
+			"clickable",
+			"hyperlinks hotlinks",
+			"target new tab open"
+			
+		] ,
+		"links":  [
+			"<a href='/html/links/#absolute-links'>Absolute Links</a>",
+			"<a href='/html/links/#relative-links'>Relative Links</a>",
+			"<a href='/html/links/#anchor-links'>Anchor Links</a>",
+			"<a href='/html/links/#email-links'>Email Links</a>",
+			"<a href='/html/links/#optional-attributes'>Optional Attributes</a>",
+			"<a href='/html/links/#video-lesson'>Video Lesson</a>",
+			"<a href='/html/links/#practice-exercise'>Practice Exercise</a>",
+			"<a href='/html/links/#tool-links'>Tool Links</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Skeleton Code",
+		"url":"/html/skeleton-code/",
+		"description":"The code that should be included in every HTML document",
+		"terms":  [
+			"Skeleton Code",
+			"overview",
+			"doctype",
+			"html",
+			"head",
+			"meta",
+			"title",
+			"body",
+			"video lesson",
+			"practice exercise",
+			
+			"document",
+			"elements",
+			"name language content keyboard"
+			
+		] ,
+		"links":  [
+			"<a href='/html/skeleton-code/#overview'>Overview</a>",
+			"<a href='/html/skeleton-code/#doctype'>Doctype</a>",
+			"<a href='/html/skeleton-code/#html'>HTML</a>",
+			"<a href='/html/skeleton-code/#head'>Head</a>",
+			"<a href='/html/skeleton-code/#meta'>Meta</a>",
+			"<a href='/html/skeleton-code/#title'>Title</a>",
+			"<a href='/html/skeleton-code/#body'>Body</a>",
+			"<a href='/html/skeleton-code/#video-lesson'>Video Lesson</a>",
+			"<a href='/html/skeleton-code/#practice-exercise'>Practice Exercise</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"What is a website?",
+		"url":"/introductions/what-is-a-website/",
+		"description":"How are websites built and what are they made of?",
+		"terms":  [
+			"What is a website?",
+			"a network of computers",
+			"finding websites",
+			"how pages are built",
+			"code languages and file types",
+			"practice exercise",
+			
+			"server",
+			"ip address",
+			"internet",
+			"browser",
+			"dns",
+			"domain",
+			"file types",
+			"programing",
+			"language"
+			
+		] ,
+		"links":  [
+			"<a href='/introductions/what-is-a-website/#a-network-of-computers'>A Network of Computers</a>",
+			"<a href='/introductions/what-is-a-website/#finding-websites'>Finding Websites</a>",
+			"<a href='/introductions/what-is-a-website/#how-pages-are-built'>How Pages are Built</a>",
+			"<a href='/introductions/what-is-a-website/#code-languages-and-file-types'>Code Languages and File Types</a>",
+			"<a href='/introductions/what-is-a-website/#practice-exercise'>Practice Exercise</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Practical Challenges",
+		"url":"/reference/challenges/",
+		"description":"A series of step-by-step challenges to practice what you've learned by creating a realistic website",
+		"terms":  [
+			"Practical Challenges",
+			
+			"practice practical",
+			"exercises work workbook",
+			"real world"
+			
+		] ,
+		"links":  [
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Website Project Checklist",
+		"url":"/reference/checklist/",
+		"description":"Make sure you have considered these items before completing a website project",
+		"terms":  [
+			"Website Project Checklist",
+			"general",
+			"html-specific",
+			"css-specific",
+			
+			"help",
+			"best practices",
+			"to do"
+			
+		] ,
+		"links":  [
+			"<a href='/reference/checklist/#general'>General</a>",
+			"<a href='/reference/checklist/#html-specific'>HTML-Specific</a>",
+			"<a href='/reference/checklist/#css-specific'>CSS-Specific</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Glossary",
+		"url":"/reference/glossary/",
+		"description":"Some of the most common HTML & CSS terms and their meanings",
+		"terms":  [
+			"Glossary",
+			"general terms",
+			"html terms",
+			"css terms",
+			
+			"words definitions",
+			"help"
+			
+		] ,
+		"links":  [
+			"<a href='/reference/glossary/#general-terms'>General Terms</a>",
+			"<a href='/reference/glossary/#html-terms'>HTML Terms</a>",
+			"<a href='/reference/glossary/#css-terms'>CSS Terms</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Reference Index",
+		"url":"/reference/reference-index/",
+		"description":"An index of all HTML elements, HTML attributes, and CSS properties discussed on this site",
+		"terms":  [
+			"Reference Index",
+			"html elements",
+			"html attributes",
+			"css properties",
+			
+			"help"
+			
+		] ,
+		"links":  [
+			"<a href='/reference/reference-index/#html-elements'>HTML Elements</a>",
+			"<a href='/reference/reference-index/#html-attributes'>HTML Attributes</a>",
+			"<a href='/reference/reference-index/#css-properties'>CSS Properties</a>"
+			
+		] 
+	}, 
+	 
+	{ 
+		"title":"Code Style Guide",
+		"url":"/reference/styleguide/",
+		"description":"A guide for formatting and other best practices for writing your code",
+		"terms":  [
+			"Code Style Guide",
+			"html guide",
+			"css guide"
+			
+			
+		] ,
+		"links":  [
+			"<a href='/reference/styleguide/#html-guide'>HTML Guide</a>",
+			"<a href='/reference/styleguide/#css-guide'>CSS Guide</a>"
+			
+		] 
+	} 
+	  
+]

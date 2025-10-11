@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en-us">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="Description" content="HTML stands for HyperText Markup Language. At the most fundamental level, HTML is a language that creates structure and adds meaning for the content of a webpage.">
+      <title>HTML Introduction</title>
+      <!-- Favicon -->
+      <link rel="apple-touch-icon" sizes="180x180" href="../../apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="../../favicon-16x16.png">
+      <link rel="manifest" href="../../site.webmanifest">
+      <link rel="mask-icon" href="../../safari-pinned-tab.svg" color="#ffa07a">
+      <meta name="msapplication-TileColor" content="#ffa07a">
+      <meta name="theme-color" content="#ffffff">
+      <link rel="stylesheet" href="../../style.css">
+   </head>
+   <body>
+      <header class="site-header">
+         <a class='logo' href='../../'>
+            <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 416.67">
+               <title>HTML and CSS Guidebook Icon</title>
+               <path class="cls-1" d="M58.68,41.67C26.27,41.67,0,63,0,89.29S26.27,136.9,58.68,136.9H427.25V41.67Z" transform="translate(0 -41.67)"></path>
+               <path class="cls-1" d="M58.68,148.81C26.27,148.81,0,170.13,0,196.43s26.27,47.62,58.68,47.62H357.14V148.81Z" transform="translate(0 -41.67)"></path>
+               <path class="cls-1" d="M58.68,256C26.27,256,0,277.27,0,303.57s26.27,47.62,58.68,47.62H428.57V256Z" transform="translate(0 -41.67)"></path>
+               <path class="cls-1" d="M58.68,363.1C26.27,363.1,0,384.42,0,410.71s26.27,47.62,58.68,47.62H500V363.1Z" transform="translate(0 -41.67)"></path>
+            </svg>
+            <span>HTML &amp; CSS Guidebook</span>
+         </a>
+      </header>
+      <main>
+         <article id="app">
+            <header>
+               <h1 id="html-introduction">HTML Introduction</h1>
+               <p>HTML stands for <strong>HyperText Markup Language</strong>. At the most fundamental level, HTML is a language that creates <strong>structure</strong> and adds <strong>meaning</strong> for the content of a webpage.</p>
+               <nav class="page-nav">
+                  <h2 id="on-this-page">On This Page</h2>
+                  <ul class="page-nav-listing ">
+                     <li><a href="../../html/html-intro/#a-language-for-content">A Language for Content</a></li>
+                     <li><a href="../../html/html-intro/#elements">Elements</a></li>
+                     <li><a href="../../html/html-intro/#semantics">Semantics</a></li>
+                     <li><a href="../../html/html-intro/#attributes">Attributes</a></li>
+                     <li><a href="../../html/html-intro/#html-files">HTML Files</a></li>
+                     <li><a href="../../html/html-intro/#practice-exercise">Practice Exercise</a></li>
+                  </ul>
+               </nav>
+            </header>
+            <h2 id="a-language-for-content">A Language for Content</h2>
+            <p>Different pieces of content play different roles and have different meaning. Think of an article in a magazine. There might be a title and various subheadings; there might be lists; and there would definitely be paragraphs. And we can identify this content by type. We could even label them:</p>
+            <p class="big-point">HTML is a language all about <strong>content</strong> and its <strong>meaning</strong>.</p>
+            <figure>
+               <img src="../../images/html-labels.png" alt="Text with labels for its parts">
+               <figcaption>We can label the parts of a block of text based on the roll they play.</figcaption>
+            </figure>
+            <p>That's basically what HTML does: It marks-up (that's the "M" in "HTML") content to assign it a type or role. In fact, we can use HTML to indicate the same meanings as we did above with labels:</p>
+            <figure>
+               <img src="../../images/html-markup.png" alt="Text with html tags for its parts">
+               <figcaption>This HTML applies the same meanings as the labels in the previous figure.</figcaption>
+            </figure>
+            <p>By writing content marked up with HTML to assign correct roles, we create a document with structure and meaning for the browser to read and turn into a web page.</p>
+            <h2 id="elements">Elements</h2>
+            <p>The basic unit of meaning in HTML is the <strong>element</strong>. An element is a piece of content and the specific meaning it carries, as well as the code used to mark it up.</p>
+            <p>The code that delineates an element is called <strong>tags</strong>. Many elements require two tags, an opening tag to indicate the start of an element and a closing tag to indicate its end:</p>
+            <figure>
+               <img src="../../images/html-tags.png" alt="Diagram of an HTML element">
+               <figcaption>An HTML element with an opening tag and a closing tag.</figcaption>
+            </figure>
+            <p>For instance, a <strong>paragraph element</strong> (<code>&lt;p&gt;</code>) needs opening and closing tags to enclose the text of the paragraph:</p>
+            <figure>
+               <code-block lang="markup" code="<p>Text in a paragraph. Paragraphs are simply blocks of related text.</p>"></code-block>
+               <figcaption>Note that when an element directly contains text, there is usually no line break between the tags and the text within.</figcaption>
+            </figure>
+            <h3 id="nesting-elements">Nesting Elements</h3>
+            <p>Often, elements enclose other elements to create a nested structure. We use the language of familial relationships to describe this. For instance, an element that encloses another would be called its <strong>parent</strong>, and the element that is inside the parent would be called a <strong>child</strong>. A simple example is the way an <strong>unordered list element</strong> (<code>ul</code>) serves as parent to <strong>list items</strong> (<code>li</code>):</p>
+            <figure>
+               <code-block lang="markup" code="<ul>
+   <li>Hats</li>
+   <li>Shoes</li>
+   <li>Bowties</li>
+</ul>"></code-block>
+               <figcaption>It is common to use line breaks and indents to indicate nested relationships.</figcaption>
+            </figure>
+            <h3 id="self-closing-elements">Self-Closing Elements</h3>
+            <p>There are some elements that don't need a closing tag because they don't wrap around any content. These elements are called <strong>self-closing elements</strong>. For instance, the <code>&lt;br&gt;</code> (break) element, which represents a meaningful line break:</p>
+            <code-block lang="markup" code="<br>"></code-block>
+            <h2 id="semantics">Semantics</h2>
+            <p>Each element in HTML has a very specifically defined meaning. <strong>Semantics</strong> is the practice of correctly using elements for content that matches their meanings.</p>
+            <p class="big-point">The <strong>most important</strong> thing to know about HTML is that <strong>elements should be chosen based on their meaning</strong>.</p>
+            <p>Writing semantic code is essential for accessibility (making a site usable to people with alternative needs), search engine rankings, proper interaction with apps and extensions, and more.</p>
+            <h2 id="attributes">Attributes</h2>
+            <p>Sometimes you want to include a little more information about an element for the browser. <strong>Attributes</strong> are extra values attached to an element to add additional functionality or context. Some attributes are specific to certain elements, but others are more universal and can be used on any element.</p>
+            <p>Attributes are applied to an element by placing them <em>inside</em> the element's opening tag, after the element name but before the right angle-bracket:</p>
+            <figure>
+               <img src="../../images/html-attribute.png" alt="An example of a class attribute">
+               <figcaption>In this example, a <code>class</code> attribute applies a name to a <code>div</code> element.</figcaption>
+            </figure>
+            <p>On self-closing elements, attributes are simply placed inside the single tag:</p>
+            <figure>
+               <code-block lang="markup" code="<img src=&quot;image-name.jpg&quot;>"></code-block>
+               <figcaption>Here, the <code>src</code> attribute identifies an image file to be used for the <code>img</code> element.</figcaption>
+            </figure>
+            <h3 id="boolean-attributes">Boolean Attributes</h3>
+            <p>Many attributes have both a name and a value, but some need no value and need only be present to function. These are called boolean attributes:</p>
+            <figure>
+               <code-block lang="markup" code="<input required>"></code-block>
+               <figcaption>Here, the <code>required</code> attribute needs no value and marks the form field as required by its presence.</figcaption>
+            </figure>
+            <h3 id="multiple-attributes">Multiple Attributes</h3>
+            <p>You can place as many attributes as you need on a single element. Attributes in the same tag should be separated with a space:</p>
+            <figure>
+               <code-block lang="markup" code="<input type=&quot;text&quot; name=&quot;user&quot; disabled>"></code-block>
+               <figcaption>This <code>input</code> has three attributes: <code>type</code>, <code>name</code>, and <code>disabled</code>.</figcaption>
+            </figure>
+            <p>There is no specific order in which attributes must be written, but a common approach is to put the most important attributes first.</p>
+            <h2 id="html-files">HTML Files</h2>
+            <p>HTML is typically written in <code>.html</code> files. An HTML file can have any name, so long as the <code>.html</code> file extension is present at the end. It is good practice to never use spaces or capital letters in file names on the web in order to avoid confusing browsers. In place of spaces, standard convention is to use dashes in what is amusingly referred to as "kebab-case" (get it?): <code>about-our-company.html</code></p>
+            <p class="big-point">The <strong>home page</strong> HTML file of a site should always be named <strong>index.html</strong>.</p>
+            <p>While an HTML file may have any name you like, it's important that the home page for a website be named index.html. This is because a browser looking at a domain name or a directory (folder) automatically looks for a file named index.html to display. If there is no file with that name, browsers simply list the files and directories present.</p>
+            <p>There is certain code, commonly referred to as skeleton code, that is necessary in every HTML document. To learn more, see the <a href="../../html/skeleton-code.html">skeleton code chapter</a>.</p>
+            <h2 id="practice-exercise">Practice Exercise</h2>
+            <div class="lesson-quiz-container">
+               <div class="quiz-link-wrapper">
+                  <a class='quiz-link' href='../../quizzes/html-intro.html' target='_blank'>
+                     Open exercise in a new tab 
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path>
+                     </svg>
+                  </a>
+               </div>
+               <div class="lesson-quiz">
+                  <iframe src="../../quizzes/html-intro.html" title="Practice Exercise" name="lesson-quiz" loading="lazy" scrolling="no" allowfullscreen=""></iframe>
+               </div>
+            </div>
+            <nav class="chapter-nav">
+               <ol>
+                  <li class="prev-chapter">
+                     <div>Previous Chapter:</div>
+                     <a href="../../introductions/what-is-a-website/">01: What is a website?</a>
+                  </li>
+                  <li class="next-chapter">
+                     <div>Next Chapter:</div>
+                     <a href="../../html/file-structure/">03: File Structure</a>
+                  </li>
+               </ol>
+            </nav>
+         </article>
+      </main>
+      <footer class="site-footer" id="site-footer">
+         <div id="toc-wrapper">
+            <a href="../../search/" class="footer-search-link">
+               <span>Search</span>
+               <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+               </svg>
+            </a>
+            <button type="button" class="menu-toggle" id="menu-toggle">
+               <svg xmlns="http://www.w3.org/2000/svg" class="menu-open icon" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <title>Open Nav</title>
+                  <g class="icon-burger">
+                     <line x1="3" y1="6" x2="21" y2="6"></line>
+                     <line x1="3" y1="12" x2="21" y2="12"></line>
+                     <line x1="3" y1="18" x2="21" y2="18"></line>
+                  </g>
+                  <g class="icon-x">
+                     <line x1="18" y1="6" x2="6" y2="18"></line>
+                     <line x1="6" y1="6" x2="18" y2="18"></line>
+                  </g>
+               </svg>
+            </button>
+            <nav class="table-of-contents">
+               <h2 id="table-of-contents">Table of Contents</h2>
+               <section>
+                  <h3 id="introductions">Introductions</h3>
+                  <ul>
+                     <li class="post">
+                        <h4 id="what-is-a-website"><a href="../../introductions/what-is-a-website/">What is a website?</a></h4>
+                        <div class="meta-text">How are websites built and what are they made of?</div>
+                        <ul>
+                           <li><a href="../../introductions/what-is-a-website/#a-network-of-computers">A Network of Computers</a></li>
+                           <li><a href="../../introductions/what-is-a-website/#finding-websites">Finding Websites</a></li>
+                           <li><a href="../../introductions/what-is-a-website/#how-pages-are-built">How Pages are Built</a></li>
+                           <li><a href="../../introductions/what-is-a-website/#code-languages-and-file-types">Code Languages and File Types</a></li>
+                           <li><a href="../../introductions/what-is-a-website/#practice-exercise">Practice Exercise</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </section>
+               <section>
+                  <h3 id="html">HTML: Content and Structure</h3>
+                  <ul>
+                     <li class="post">
+                        <h4 id="html-introduction"><a href="../../html/html-intro/">HTML Introduction</a></h4>
+                        <div class="meta-text">What is HTML? What are the rules of the language?</div>
+                        <ul>
+                           <li><a href="../../html/html-intro/#a-language-for-content">A Language for Content</a></li>
+                           <li><a href="../../html/html-intro/#elements">Elements</a></li>
+                           <li><a href="../../html/html-intro/#semantics">Semantics</a></li>
+                           <li><a href="../../html/html-intro/#attributes">Attributes</a></li>
+                           <li><a href="../../html/html-intro/#html-files">HTML Files</a></li>
+                           <li><a href="../../html/html-intro/#practice-exercise">Practice Exercise</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="file-structure"><a href="../../html/file-structure/">File Structure</a></h4>
+                        <div class="meta-text">How to structure the folders and files of a website project</div>
+                        <ul>
+                           <li><a href="../../html/file-structure/#project-folder">Project Folder</a></li>
+                           <li><a href="../../html/file-structure/#home-page">Home Page</a></li>
+                           <li><a href="../../html/file-structure/#subfolders">Subfolders</a></li>
+                           <li><a href="../../html/file-structure/#parent-folders">Parent Folders</a></li>
+                           <li><a href="../../html/file-structure/#practice-exercise">Practice Exercise</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="skeleton-code"><a href="../../html/skeleton-code/">Skeleton Code</a></h4>
+                        <div class="meta-text">The code that should be included in every HTML document</div>
+                        <ul>
+                           <li><a href="../../html/skeleton-code/#overview">Overview</a></li>
+                           <li><a href="../../html/skeleton-code/#doctype">Doctype</a></li>
+                           <li><a href="../../html/skeleton-code/#html">HTML</a></li>
+                           <li><a href="../../html/skeleton-code/#head">Head</a></li>
+                           <li><a href="../../html/skeleton-code/#meta">Meta</a></li>
+                           <li><a href="../../html/skeleton-code/#title">Title</a></li>
+                           <li><a href="../../html/skeleton-code/#body">Body</a></li>
+                           <li><a href="../../html/skeleton-code/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../html/skeleton-code/#practice-exercise">Practice Exercise</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="basic-html-text-elements"><a href="../../html/basic-text/">Basic HTML Text Elements</a></h4>
+                        <div class="meta-text">The most common elements for structuring text content</div>
+                        <ul>
+                           <li><a href="../../html/basic-text/#headings">Headings</a></li>
+                           <li><a href="../../html/basic-text/#paragraph-and-small">Paragraph and Small</a></li>
+                           <li><a href="../../html/basic-text/#strong-and-emphasis">Strong and Emphasis</a></li>
+                           <li><a href="../../html/basic-text/#lists">Lists</a></li>
+                           <li><a href="../../html/basic-text/#breaking-elements">Breaking Elements</a></li>
+                           <li><a href="../../html/basic-text/#practice-exercise">Practice Exercise</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="links"><a href="../../html/links/">Links</a></h4>
+                        <div class="meta-text">The most fundamental type of interactivity in HTML</div>
+                        <ul>
+                           <li><a href="../../html/links/#absolute-links">Absolute Links</a></li>
+                           <li><a href="../../html/links/#relative-links">Relative Links</a></li>
+                           <li><a href="../../html/links/#anchor-links">Anchor Links</a></li>
+                           <li><a href="../../html/links/#email-links">Email Links</a></li>
+                           <li><a href="../../html/links/#optional-attributes">Optional Attributes</a></li>
+                           <li><a href="../../html/links/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../html/links/#practice-exercise">Practice Exercise</a></li>
+                           <li><a href="../../html/links/#tool-links">Tool Links</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="ids-and-classes"><a href="../../html/ids-classes/">IDs &amp; Classes</a></h4>
+                        <div class="meta-text">Attributes for giving names to elements</div>
+                        <ul>
+                           <li><a href="../../html/ids-classes/#usage-rules">Usage Rules</a></li>
+                           <li><a href="../../html/ids-classes/#ids">IDs</a></li>
+                           <li><a href="../../html/ids-classes/#classes">Classes</a></li>
+                           <li><a href="../../html/ids-classes/#multiple-classes-or-ids">Multiple Classes or IDs</a></li>
+                           <li><a href="../../html/ids-classes/#practice-exercise">Practice Exercise</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="semantic-elements"><a href="../../html/html5-semantic/">Semantic Elements</a></h4>
+                        <div class="meta-text">A set of elements aimed at adding meaning to the parts of a web page</div>
+                        <ul>
+                           <li><a href="../../html/html5-semantic/#header">Header</a></li>
+                           <li><a href="../../html/html5-semantic/#footer">Footer</a></li>
+                           <li><a href="../../html/html5-semantic/#main">Main</a></li>
+                           <li><a href="../../html/html5-semantic/#article">Article</a></li>
+                           <li><a href="../../html/html5-semantic/#section">Section</a></li>
+                           <li><a href="../../html/html5-semantic/#aside">Aside</a></li>
+                           <li><a href="../../html/html5-semantic/#nav">Nav</a></li>
+                           <li><a href="../../html/html5-semantic/#figure-and-figcaption">Figure &amp; Figcaption</a></li>
+                           <li><a href="../../html/html5-semantic/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../html/html5-semantic/#practice-exercise">Practice Exercise</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="divs-and-spans"><a href="../../html/div-span/">Divs &amp; Spans</a></h4>
+                        <div class="meta-text">Meaningless elements</div>
+                        <ul>
+                           <li><a href="../../html/div-span/#div-versus-span">Div versus Span</a></li>
+                           <li><a href="../../html/div-span/#practice-exercise">Practice Exercise</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="images"><a href="../../html/images/">Images</a></h4>
+                        <div class="meta-text">Image formats, the HTML image element, and inline SVG</div>
+                        <ul>
+                           <li><a href="../../html/images/#common-image-formats">Common Image Formats</a></li>
+                           <li><a href="../../html/images/#the-image-element">The Image Element</a></li>
+                           <li><a href="../../html/images/#inline-svg">Inline SVG</a></li>
+                           <li><a href="../../html/images/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../html/images/#practice-exercise">Practice Exercise</a></li>
+                           <li><a href="../../html/images/#resource-links">Resource Links</a></li>
+                           <li><a href="../../html/images/#tool-links">Tool Links</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="forms"><a href="../../html/forms/">Forms</a></h4>
+                        <div class="meta-text">How to accept input or information from users</div>
+                        <ul>
+                           <li><a href="../../html/forms/#the-form-element">The Form Element</a></li>
+                           <li><a href="../../html/forms/#the-input-element">The Input Element</a></li>
+                           <li><a href="../../html/forms/#the-textarea-element">The Textarea Element</a></li>
+                           <li><a href="../../html/forms/#select-andamp-option">Select &amp; Option</a></li>
+                           <li><a href="../../html/forms/#the-name-attribute">The Name Attribute</a></li>
+                           <li><a href="../../html/forms/#the-label-element">The Label Element</a></li>
+                           <li><a href="../../html/forms/#submit-buttons">Submit Buttons</a></li>
+                           <li><a href="../../html/forms/#additional-attributes">Additional Attributes</a></li>
+                           <li><a href="../../html/forms/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../html/forms/#practice-exercise">Practice Exercise</a></li>
+                           <li><a href="../../html/forms/#resources">Resources</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="interactive-elements"><a href="../../html/interactive/">Interactive Elements</a></h4>
+                        <div class="meta-text">Elements with built-in interactive open-and-close behaviors</div>
+                        <ul>
+                           <li><a href="../../html/interactive/#details-and-summary">Details &amp; Summary</a></li>
+                           <li><a href="../../html/interactive/#dialog">Dialog</a></li>
+                           <li><a href="../../html/interactive/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../html/interactive/#resource-links">Resource Links</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </section>
+               <section>
+                  <h3 id="css">CSS: Style and Layout</h3>
+                  <ul>
+                     <li class="post">
+                        <h4 id="introduction-to-css"><a href="../../css/css-intro/">Introduction to CSS</a></h4>
+                        <div class="meta-text">What is the purpose of CSS? How does it work to style HTML?</div>
+                        <ul>
+                           <li><a href="../../css/css-intro/#css-files">CSS Files</a></li>
+                           <li><a href="../../css/css-intro/#syntax">Syntax</a></li>
+                           <li><a href="../../css/css-intro/#the-cascade">The Cascade</a></li>
+                           <li><a href="../../css/css-intro/#default-styles">Default Styles</a></li>
+                           <li><a href="../../css/css-intro/#comments-in-css">Comments in CSS</a></li>
+                           <li><a href="../../css/css-intro/#practice-exercise">Practice Exercise</a></li>
+                           <li><a href="../../css/css-intro/#resource-links">Resource Links</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="css-selectors"><a href="../../css/selectors/">CSS Selectors</a></h4>
+                        <div class="meta-text">Different ways CSS can select HTML elements to style</div>
+                        <ul>
+                           <li><a href="../../css/selectors/#element-selector">Element Selector</a></li>
+                           <li><a href="../../css/selectors/#class-selector">Class Selector</a></li>
+                           <li><a href="../../css/selectors/#decendant-combinator">Decendant Combinator</a></li>
+                           <li><a href="../../css/selectors/#selector-list">Selector List</a></li>
+                           <li><a href="../../css/selectors/#attribute-selector">Attribute Selector</a></li>
+                           <li><a href="../../css/selectors/#advanced-selectors">Advanced Selectors</a></li>
+                           <li><a href="../../css/selectors/#practice-exercise">Practice Exercise</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="common-size-units"><a href="../../css/size-units/">Common Size Units</a></h4>
+                        <div class="meta-text">Different ways to apply measurements in CSS</div>
+                        <ul>
+                           <li><a href="../../css/size-units/#pixels">Pixels</a></li>
+                           <li><a href="../../css/size-units/#rems">Rems</a></li>
+                           <li><a href="../../css/size-units/#percentages">Percentages</a></li>
+                           <li><a href="../../css/size-units/#viewport-units">Viewport Units</a></li>
+                           <li><a href="../../css/size-units/#ems">Ems</a></li>
+                           <li><a href="../../css/size-units/#practice-exercise">Practice Exercise</a></li>
+                           <li><a href="../../css/size-units/#resource-links">Resource Links</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="css-color-definitions"><a href="../../css/colors/">CSS Color Definitions</a></h4>
+                        <div class="meta-text">Several common ways to specify a color in CSS</div>
+                        <ul>
+                           <li><a href="../../css/colors/#hexadecimal">Hexadecimal</a></li>
+                           <li><a href="../../css/colors/#rgb-and-rgba">RGB &amp; RGBA</a></li>
+                           <li><a href="../../css/colors/#named-colors">Named Colors</a></li>
+                           <li><a href="../../css/colors/#practice-exercise">Practice Exercise</a></li>
+                           <li><a href="../../css/colors/#resource-links">Resource Links</a></li>
+                           <li><a href="../../css/colors/#tool-links">Tool Links</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="typographic-properties"><a href="../../css/type-css/">Typographic Properties</a></h4>
+                        <div class="meta-text">A wide variety of ways to customize and control the appearance of text</div>
+                        <ul>
+                           <li><a href="../../css/type-css/#font-family">Font-Family</a></li>
+                           <li><a href="../../css/type-css/#font-size">Font-Size</a></li>
+                           <li><a href="../../css/type-css/#font-weight">Font-Weight</a></li>
+                           <li><a href="../../css/type-css/#font-style">Font-Style</a></li>
+                           <li><a href="../../css/type-css/#color">Color</a></li>
+                           <li><a href="../../css/type-css/#line-height">Line-Height</a></li>
+                           <li><a href="../../css/type-css/#text-transform">Text-Transform</a></li>
+                           <li><a href="../../css/type-css/#text-decoration">Text-Decoration</a></li>
+                           <li><a href="../../css/type-css/#letter-spacing">Letter-Spacing</a></li>
+                           <li><a href="../../css/type-css/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../css/type-css/#practice-exercise">Practice Exercise</a></li>
+                           <li><a href="../../css/type-css/#resource-links">Resource Links</a></li>
+                           <li><a href="../../css/type-css/#tool-links">Tool Links</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="styling-lists"><a href="../../css/list-styles/">Styling Lists</a></h4>
+                        <div class="meta-text">How to control the bullets, numbers, and spacing associated with list items</div>
+                        <ul>
+                           <li><a href="../../css/list-styles/#list-style-type">List Style Type</a></li>
+                           <li><a href="../../css/list-styles/#nested-lists">Nested Lists</a></li>
+                           <li><a href="../../css/list-styles/#default-padding">Default Padding</a></li>
+                           <li><a href="../../css/list-styles/#list-style-position">List Style Position</a></li>
+                           <li><a href="../../css/list-styles/#practice-exercise">Practice Exercise</a></li>
+                           <li><a href="../../css/list-styles/#resource-links">Resource Links</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="the-box-model"><a href="../../css/box-model/">The Box Model</a></h4>
+                        <div class="meta-text">How block elements are sized and spaced in CSS</div>
+                        <ul>
+                           <li><a href="../../css/box-model/#width-and-height">Width &amp; Height</a></li>
+                           <li><a href="../../css/box-model/#padding">Padding</a></li>
+                           <li><a href="../../css/box-model/#margin">Margin</a></li>
+                           <li><a href="../../css/box-model/#border">Border</a></li>
+                           <li><a href="../../css/box-model/#box-sizing">Box Sizing</a></li>
+                           <li><a href="../../css/box-model/#interactive-demo">Interactive Demo</a></li>
+                           <li><a href="../../css/box-model/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../css/box-model/#practice-exercise">Practice Exercise</a></li>
+                           <li><a href="../../css/box-model/#resource-links">Resource Links</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="link-states"><a href="../../css/link-states/">Link States</a></h4>
+                        <div class="meta-text">Different states of link interaction and how to style them</div>
+                        <ul>
+                           <li><a href="../../css/link-states/#normal-links">Normal Links</a></li>
+                           <li><a href="../../css/link-states/#visited">Visited</a></li>
+                           <li><a href="../../css/link-states/#hover">Hover</a></li>
+                           <li><a href="../../css/link-states/#focus">Focus</a></li>
+                           <li><a href="../../css/link-states/#active">Active</a></li>
+                           <li><a href="../../css/link-states/#order-of-selectors">Order of Selectors</a></li>
+                           <li><a href="../../css/link-states/#full-example">Full Example</a></li>
+                           <li><a href="../../css/link-states/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../css/link-states/#practice-exercise">Practice Exercise</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="float-and-clear"><a href="../../css/float-clear/">Float &amp; Clear</a></h4>
+                        <div class="meta-text">How to wrap text around an image or another element</div>
+                        <ul>
+                           <li><a href="../../css/float-clear/#float">Float</a></li>
+                           <li><a href="../../css/float-clear/#clear">Clear</a></li>
+                           <li><a href="../../css/float-clear/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../css/float-clear/#practice-exercise">Practice Exercise</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="background-colors-and-images"><a href="../../css/backgrounds/">Background Colors &amp; Images</a></h4>
+                        <div class="meta-text">How to control the appearance of the area behind a page or element</div>
+                        <ul>
+                           <li><a href="../../css/backgrounds/#background-color">Background Color</a></li>
+                           <li><a href="../../css/backgrounds/#background-image">Background Image</a></li>
+                           <li><a href="../../css/backgrounds/#background-repeat">Background Repeat</a></li>
+                           <li><a href="../../css/backgrounds/#background-position">Background Position</a></li>
+                           <li><a href="../../css/backgrounds/#background-attachment">Background Attachment</a></li>
+                           <li><a href="../../css/backgrounds/#background-size">Background Size</a></li>
+                           <li><a href="../../css/backgrounds/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../css/backgrounds/#practice-exercise">Practice Exercise</a></li>
+                           <li><a href="../../css/backgrounds/#resource-links">Resource Links</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="special-effects"><a href="../../css/effects/">Special Effects</a></h4>
+                        <div class="meta-text">How to apply unique styles such as shadows and rounded corners</div>
+                        <ul>
+                           <li><a href="../../css/effects/#two-kinds-of-shadows">Two Kinds of Shadows</a></li>
+                           <li><a href="../../css/effects/#box-shadow">Box Shadow</a></li>
+                           <li><a href="../../css/effects/#text-shadow">Text Shadow</a></li>
+                           <li><a href="../../css/effects/#rounded-corners">Rounded Corners</a></li>
+                           <li><a href="../../css/effects/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../css/effects/#practice-exercise">Practice Exercise</a></li>
+                           <li><a href="../../css/effects/#tool-links">Tool Links</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="fluid-width"><a href="../../css/fluid-width/">Fluid Width</a></h4>
+                        <div class="meta-text">How to make elements stretch or squish depending to fit the space available</div>
+                        <ul>
+                           <li><a href="../../css/fluid-width/#setting-fixed-widths">Setting Fixed Widths</a></li>
+                           <li><a href="../../css/fluid-width/#percentage-widths">Percentage Widths</a></li>
+                           <li><a href="../../css/fluid-width/#max-width-and-min-width">Max-Width &amp; Min-Width</a></li>
+                           <li><a href="../../css/fluid-width/#height-properties">Height Properties</a></li>
+                           <li><a href="../../css/fluid-width/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../css/fluid-width/#practice-exercise">Practice Exercise</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="responsive-design"><a href="../../css/responsive/">Responsive Design</a></h4>
+                        <div class="meta-text">Using media queries to adapt a page to different screen sizes</div>
+                        <ul>
+                           <li><a href="../../css/responsive/#mobile-first">Mobile First</a></li>
+                           <li><a href="../../css/responsive/#media-queries">Media Queries</a></li>
+                           <li><a href="../../css/responsive/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../css/responsive/#practice-exercise">Practice Exercise</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="the-display-property"><a href="../../css/display/">The Display Property</a></h4>
+                        <div class="meta-text">How to control the basic layout behavior of an element</div>
+                        <ul>
+                           <li><a href="../../css/display/#block">Block</a></li>
+                           <li><a href="../../css/display/#inline">Inline</a></li>
+                           <li><a href="../../css/display/#inline-block">Inline-Block</a></li>
+                           <li><a href="../../css/display/#none">None</a></li>
+                           <li><a href="../../css/display/#other-display-values">Other Display Values</a></li>
+                           <li><a href="../../css/display/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../css/display/#practice-exercise">Practice Exercise</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="web-fonts"><a href="../../css/web-fonts/">Web Fonts</a></h4>
+                        <div class="meta-text">Custom typefaces for web pages</div>
+                        <ul>
+                           <li><a href="../../css/web-fonts/#web-font-basics">Web Font Basics</a></li>
+                           <li><a href="../../css/web-fonts/#web-font-services">Web Font Services</a></li>
+                           <li><a href="../../css/web-fonts/#weights-and-styles">Weights &amp; Styles</a></li>
+                           <li><a href="../../css/web-fonts/#practice-exercise">Practice Exercise</a></li>
+                           <li><a href="../../css/web-fonts/#resource-links">Resource Links</a></li>
+                           <li><a href="../../css/web-fonts/#tool-links">Tool Links</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="the-position-property"><a href="../../css/position/">The Position Property</a></h4>
+                        <div class="meta-text">For when you want full manual control of the placement of an element</div>
+                        <ul>
+                           <li><a href="../../css/position/#position-basics">Position Basics</a></li>
+                           <li><a href="../../css/position/#document-flow">Document Flow</a></li>
+                           <li><a href="../../css/position/#relative">Relative</a></li>
+                           <li><a href="../../css/position/#absolute">Absolute</a></li>
+                           <li><a href="../../css/position/#fixed">Fixed</a></li>
+                           <li><a href="../../css/position/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../css/position/#practice-exercise">Practice Exercise</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="css-transitions-and-animation"><a href="../../css/animation/">CSS Transitions &amp; Animation</a></h4>
+                        <div class="meta-text">For adding motion to web pages</div>
+                        <ul>
+                           <li><a href="../../css/animation/#transitions">Transitions</a></li>
+                           <li><a href="../../css/animation/#keyframe-animation">Keyframe Animation</a></li>
+                           <li><a href="../../css/animation/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../css/animation/#resource-links">Resource Links</a></li>
+                           <li><a href="../../css/animation/#tool-links">Tool Links</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="transform"><a href="../../css/transforms/">Transform</a></h4>
+                        <div class="meta-text">For scaling, rotating, skewing, or moving an element</div>
+                        <ul>
+                           <li><a href="../../css/transforms/#basic-usage">Basic Usage</a></li>
+                           <li><a href="../../css/transforms/#common-transform-functions">Common Transform Functions</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="flexbox"><a href="../../css/flexbox/">Flexbox</a></h4>
+                        <div class="meta-text">For laying out items across a single dimension</div>
+                        <ul>
+                           <li><a href="../../css/flexbox/#activating-flexbox">Activating Flexbox</a></li>
+                           <li><a href="../../css/flexbox/#flex-direction">Flex Direction</a></li>
+                           <li><a href="../../css/flexbox/#justify-content">Justify Content</a></li>
+                           <li><a href="../../css/flexbox/#align-items">Align Items</a></li>
+                           <li><a href="../../css/flexbox/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../css/flexbox/#practice-exercise">Practice Exercise</a></li>
+                           <li><a href="../../css/flexbox/#resource-links">Resource Links</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="grid"><a href="../../css/grid/">Grid</a></h4>
+                        <div class="meta-text">For laying out items in a two-dimensional grid</div>
+                        <ul>
+                           <li><a href="../../css/grid/#terminology">Terminology</a></li>
+                           <li><a href="../../css/grid/#activating-grid">Activating Grid</a></li>
+                           <li><a href="../../css/grid/#grid-template">Grid Template</a></li>
+                           <li><a href="../../css/grid/#grid-gap">Grid Gap</a></li>
+                           <li><a href="../../css/grid/#justify-items">Justify Items</a></li>
+                           <li><a href="../../css/grid/#align-items">Align Items</a></li>
+                           <li><a href="../../css/grid/#positioning-grid-children">Positioning Grid Children</a></li>
+                           <li><a href="../../css/grid/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../css/grid/#practice-exercise">Practice Exercise</a></li>
+                           <li><a href="../../css/grid/#resource-links">Resource Links</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="advanced-typographic-css"><a href="../../css/type-advanced/">Advanced Typographic CSS</a></h4>
+                        <div class="meta-text">Techniques for creating cohesive and responsive typography</div>
+                        <ul>
+                           <li><a href="../../css/type-advanced/#modular-scales">Modular Scales</a></li>
+                           <li><a href="../../css/type-advanced/#responsive-type">Responsive Type</a></li>
+                           <li><a href="../../css/type-advanced/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../css/type-advanced/#resource-links">Resource Links</a></li>
+                           <li><a href="../../css/type-advanced/#tool-links">Tool Links</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="variables"><a href="../../css/variables/">Variables</a></h4>
+                        <div class="meta-text">For creating reusable CSS values</div>
+                        <ul>
+                           <li><a href="../../css/variables/#defining-variables">Defining Variables</a></li>
+                           <li><a href="../../css/variables/#redefining-and-overriding">Redefining and Overriding</a></li>
+                           <li><a href="../../css/variables/#using-variables">Using Variables</a></li>
+                           <li><a href="../../css/variables/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../css/variables/#resource-links">Resource Links</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="css-generated-content"><a href="../../css/pseudo-elements/">CSS-Generated Content</a></h4>
+                        <div class="meta-text">Insert visual content with CSS</div>
+                        <ul>
+                           <li><a href="../../css/pseudo-elements/#pseudo-elements">Pseudo-Elements</a></li>
+                           <li><a href="../../css/pseudo-elements/#styling-inserted-content">Styling Inserted Content</a></li>
+                           <li><a href="../../css/pseudo-elements/#absolute-positioning">Absolute Positioning</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </section>
+               <section>
+                  <h3 id="advanced">Advanced / Other</h3>
+                  <ul>
+                     <li class="post">
+                        <h4 id="styling-a-responsive-nav"><a href="../../advanced/responsive-nav/">Styling a Responsive Nav</a></h4>
+                        <div class="meta-text">A simple example of responsive design for site navigation</div>
+                        <ul>
+                           <li><a href="../../advanced/responsive-nav/#the-html">The HTML</a></li>
+                           <li><a href="../../advanced/responsive-nav/#mobile-first-styles">Mobile-First Styles</a></li>
+                           <li><a href="../../advanced/responsive-nav/#making-it-responsive">Making it Responsive</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="site-icons-favicons"><a href="../../advanced/favicons/">Site Icons (Favicons)</a></h4>
+                        <div class="meta-text">An icon for the browser tab and elsewhere</div>
+                        <ul>
+                           <li><a href="../../advanced/favicons/#creating-a-favicon">Creating a Favicon</a></li>
+                           <li><a href="../../advanced/favicons/#using-a-favicon-on-a-site">Using a Favicon on a Site</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="git-github"><a href="../../advanced/github/">Git / Github</a></h4>
+                        <div class="meta-text">Version control to keep track of changes</div>
+                        <ul>
+                           <li><a href="../../advanced/github/#repositories">Repositories</a></li>
+                           <li><a href="../../advanced/github/#commits">Commits</a></li>
+                           <li><a href="../../advanced/github/#workflow">Workflow</a></li>
+                           <li><a href="../../advanced/github/#video-lesson">Video Lesson</a></li>
+                           <li><a href="../../advanced/github/#resource-links">Resource Links</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="going-beyond"><a href="../../advanced/beyond/">Going Beyond</a></h4>
+                        <div class="meta-text">Want to know more about front-end coding?</div>
+                        <ul>
+                           <li><a href="../../advanced/beyond/#general">General</a></li>
+                           <li><a href="../../advanced/beyond/#more-html">More HTML</a></li>
+                           <li><a href="../../advanced/beyond/#more-css">More CSS</a></li>
+                           <li><a href="../../advanced/beyond/#animation">Animation</a></li>
+                           <li><a href="../../advanced/beyond/#javascript">Javascript</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </section>
+               <section>
+                  <h3 id="reference">Reference Resources</h3>
+                  <ul>
+                     <li class="post">
+                        <h4 id="practical-challenges"><a href="../../reference/challenges/">Practical Challenges</a></h4>
+                        <div class="meta-text">A series of step-by-step challenges to practice what you've learned by creating a realistic website</div>
+                     </li>
+                     <li class="post">
+                        <h4 id="code-style-guide"><a href="../../reference/styleguide/">Code Style Guide</a></h4>
+                        <div class="meta-text">A guide for formatting and other best practices for writing your code</div>
+                        <ul>
+                           <li><a href="../../reference/styleguide/#html-guide">HTML Guide</a></li>
+                           <li><a href="../../reference/styleguide/#css-guide">CSS Guide</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="glossary"><a href="../../reference/glossary/">Glossary</a></h4>
+                        <div class="meta-text">Some of the most common HTML &amp; CSS terms and their meanings</div>
+                        <ul>
+                           <li><a href="../../reference/glossary/#general-terms">General Terms</a></li>
+                           <li><a href="../../reference/glossary/#html-terms">HTML Terms</a></li>
+                           <li><a href="../../reference/glossary/#css-terms">CSS Terms</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="website-project-checklist"><a href="../../reference/checklist/">Website Project Checklist</a></h4>
+                        <div class="meta-text">Make sure you have considered these items before completing a website project</div>
+                        <ul>
+                           <li><a href="../../reference/checklist/#general">General</a></li>
+                           <li><a href="../../reference/checklist/#html-specific">HTML-Specific</a></li>
+                           <li><a href="../../reference/checklist/#css-specific">CSS-Specific</a></li>
+                        </ul>
+                     </li>
+                     <li class="post">
+                        <h4 id="reference-index"><a href="../../reference/reference-index/">Reference Index</a></h4>
+                        <div class="meta-text">An index of all HTML elements, HTML attributes, and CSS properties discussed on this site</div>
+                        <ul>
+                           <li><a href="../../reference/reference-index/#html-elements">HTML Elements</a></li>
+                           <li><a href="../../reference/reference-index/#html-attributes">HTML Attributes</a></li>
+                           <li><a href="../../reference/reference-index/#css-properties">CSS Properties</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </section>
+            </nav>
+            <div class="licence">
+               <p>This book is made available under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
+            </div>
+         </div>
+      </footer>
+      <!--Scripts-->
+      <script src="../../dependencies/compressed.js"></script>
+      <script src="../../dependencies/xml.js"></script>
+      <script src="../../dependencies/css.js"></script>
+      <script src="../../dependencies/htmlmixed.js"></script>
+      <script src="../../js/scripts-dist.js"></script>
+   </body>
+</html>
